@@ -1,10 +1,3 @@
-const Mutation = {
-  createUser(parents, args, ctx, info) {
-    return {
-      name: args.name,
-      email: args.email
-    };
-  }
-};
+const mutations = {};
 
-module.exports = Mutation;
+module.exports = mutations;
